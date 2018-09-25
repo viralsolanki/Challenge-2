@@ -1,0 +1,41 @@
+/*
+*
+* @pakage rtcamp_challenge_2a
+*
+*
+*/
+/*
+=====================================================
+		CSS FOR rtcamp_challenge_2a
+=====================================================
+*/
+
+.slider_settings{
+	
+	margin-right:20px;
+	padding:10px;
+	background-color:#ffff;
+	box-shadow:6px 8px 0 #d3d3d3;
+}
+.slider_settings ul li{
+	
+	display:inline-block;
+	margin:0 10px 0 10px;
+	list-style-type:none;
+	
+}
+
+.slider_settings ul li img{
+	width:100px;
+	height:100px;
+	transition:transform 0.4s;
+	
+}
+
+.slider_settings p{
+	
+	//font-weight:bold;
+	font-size:20px;
+}
+
+

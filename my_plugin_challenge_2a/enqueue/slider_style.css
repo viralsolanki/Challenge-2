@@ -1,0 +1,66 @@
+/*
+*
+* @pakage rtcamp_challenge_2a
+*
+*
+*/
+/*
+=====================================================
+		CSS FOR rtcamp_challenge_2a SLIDER
+=====================================================
+*/
+
+
+/**************************SLIDER************************/
+
+.plugin_slider{
+	position:relative;
+	width:fit-content;	
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.plugin_slider_images img{
+
+	position:absolute;
+	z-index:-2;
+	top:0px;
+	left:0px;
+	opacity:0;
+	height:500px;
+	width:1500px;
+	
+	
+}
+	
+.plugin_slider img.ontop{
+	position:static;
+	opacity:1;
+	transition: opacity 2s;
+}
+
+.next_btn,.prev_btn{
+	height:100px;
+	width:100px;
+	opacity:0.3;
+	margin-top:auto;
+	margin-bottom:auto;
+	top:50%;
+	transform:translateY(-50%);
+}
+.next_btn{
+	right:10px;
+	z-index:2;
+
+	}
+
+.next_btn:hover,.prev_btn:hover{
+	cursor:pointer;
+	opacity:1;
+	
+}	
+.prev_btn{
+	left:10px;
+	z-index:2;
+}
+
