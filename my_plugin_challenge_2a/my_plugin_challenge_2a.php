@@ -7,7 +7,7 @@
 
 /**
 	Plugin Name: challenge_2a Slider
-	Description: This plugin is for create a custom slider in your theme
+	Description: This plugin will create a custom slider in your theme. Slider can be customize by Slider_settings page. 
 	Version: 1.0.0
 	Author: Viral Solanki
 	License: GPLv2 or latter

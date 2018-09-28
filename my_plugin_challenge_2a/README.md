@@ -17,17 +17,17 @@ Activation of the Plugin will Create a Slider in your page which can be customiz
 
 ### How It Works ?
 
-To customize Slider go to WordPress **Dashboard -> Menubar -> Slider_Settings**. 
+First activate the plugin then to customize Slider go to WordPress **Dashboard -> Menubar -> Slider_Settings**. 
 
 From here you can Insert images to the Slider, remove images from Slider and change the index of the images in Slider.
 All the actions can be done by clicking on the respective action buttons. 
 
 **Slider_Settings** page contains following buttons to do respective changes :
 
-# Insert Images - Insert images to your Slider
-# Change Index - Change index of images in Slider
-# Select & Remove - Select and Remove remove images from Slider 
-# Remove All Images - Remove All the Images From the Slider 
+* Insert Images - Insert images to your Slider
+* Change Index - Change index of images in Slider
+* Select & Remove - Select and Remove remove images from Slider 
+* Remove All Images - Remove All the Images From the Slider 
 
 ### Shortcode
 
@@ -35,10 +35,7 @@ A Shortcode named 'myslideshow' will be generated. You can use it in pages and p
 ```
 [myslideshow]
 ```
-
 **Note** - On plugin Deactivation All the images in the slider will be lost Slider will get empty. you can again insert images by clicking on **Insert Images**.
-### Menu
-
 
 ## Frameworks used
 
@@ -60,3 +57,7 @@ For testing PHPUnit testing framework is used. All the tests are rest in test di
 * [WordPress StackExchange](https://codex.wordpress.stackexchange.com)
 * etc
 
+## Demo Link
+
+
+[http://myplugin.gq/](http://myplugin.gq/) - Shortcode 'myslideshow' is used in **Shortcode** page. Open the page to see how it works.
