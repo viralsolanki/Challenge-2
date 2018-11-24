@@ -7,7 +7,7 @@
 
 /**
 	Plugin Name: challenge_2a Slider
-	Description: This plugin will create a custom slider in your theme. Slider can be customize by Slider_settings page. 
+	Description: This plugin is for create a custom slider in your theme
 	Version: 1.0.0
 	Author: Viral Solanki
 	License: GPLv2 or latter
@@ -71,6 +71,7 @@ register_deactivation_hook( __FILE__, array( 'Slider_plugin_Deactivate', 'deacti
 
 require_once plugin_dir_path( __FILE__ ) . '/inc/class-slider-settings-page.php';
 require_once plugin_dir_path( __FILE__ ) . '/inc/class-slider-display.php';
+require_once plugin_dir_path( __FILE__ ) . '/inc/class-add-button-visual-editor.php';
 
 
 if ( class_exists( 'Slider_Plugin' ) ) {
@@ -92,4 +93,11 @@ if ( class_exists( 'Slider_Display' ) ) {
 
 	$slider_display = new Slider_Display();
 	$slider_display->register();
+}
+
+if ( class_exists( 'Add_Button_Visual_Editor' ) ) {
+
+	$add_button_visual_editor = new Add_Button_Visual_Editor();
+	$add_button_visual_editor->register();
+
 }
