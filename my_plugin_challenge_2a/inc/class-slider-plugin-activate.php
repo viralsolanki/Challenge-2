@@ -15,6 +15,13 @@ class Slider_Plugin_Activate {
 	public static function activate() {
 		flush_rewrite_rules();
 
+		$slider_type = get_option( 'slider_type' );
+		if ( $slider_type ) {
+			return;
+		}
+		$default = array();
+		update_option( 'slider_type', $default );
+
 	}
 
 

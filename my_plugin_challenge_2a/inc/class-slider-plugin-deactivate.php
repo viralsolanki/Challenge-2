@@ -14,11 +14,26 @@ class Slider_Plugin_Deactivate {
 	 */
 	public static function deactivate() {
 		flush_rewrite_rules();
+		//delete values from the database
+		$list_slide = get_option( 'slider_type' );
+		foreach ( $list_slide as $slide ) {
 
-		global $wpdb;
+			delete_option($slide);
+		}
+		
+		delete_option('slider_type');
+		$posts = get_posts(
+			array(
+				'post_type'      => array( 'post', 'page' ),
+				'meta_key'       => '_slider_meta_value',
+				'posts_per_page' => -1,
+			)
+		);
 
-		$wpdb->query( "DELETE FROM wp_options WHERE option_name = 'images_bar' " );
+		foreach ( $posts as $post ) {
+			delete_post_meta( $post->ID, '_slider_meta_value' );
 
+		}
 	}
 
 

@@ -36,6 +36,19 @@
 	
 	//font-weight:bold;
 	font-size:20px;
+	margin-bottom:10px;
 }
 
+.save_dlt_form{
+	display:inline-block;
+	float:right;
+	margin-right: 15px;
+	margin-top: 9px;
+}
 
+.delete{
+	background: #ff0000 !important;
+	box-shadow :0 1px 0 #8b0000 !important;
+	text-shadow:none !important;
+	border-color:#ff0000 !important;
+}
