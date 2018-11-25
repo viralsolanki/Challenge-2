@@ -102,28 +102,23 @@ $(document).ready( function(){
 	}
 	/****************Lazy Loading********************
 	*************************************************/
-	/*
-	window.onscroll = function(ev){
-		imageload();
-	}*/
-	imageload();
-	function imageload(){
-		var img = document.getElementsByClassName("load_img");
-		for (var i=0;i<img.length;i++){
-			if(elementInViewport(img[i])){
-				img[i].setAttribute('src',img[i].getAttribute('data-src'));
-			}
-		}
-	}
+	setTimeout(loading,500);
 	
-	function elementInViewport(el){
-		var rect = el.getBoundingClientRect();
-		return (
-			rect.top >=0 &&
-			rect.left >=0 &&
-			rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-			rect.right <= (window.innerWidth || document.documentElement.clientWidth) 
-			);
+	function loading(){
+		var img = document.getElementsByClassName("load_img");
+		if(!img){
+			return;
+		}
+		for (var i=0; i<img.length; i++){
+				get_original_image(img[i]);	
+		}
+	} 		
+	function get_original_image(element){
+		original = document.createElement("img");
+			original.onload = function(){
+				element.src = this.src;
+		}
+		original.src = element.getAttribute('data-src');	
 	}
 });
 
