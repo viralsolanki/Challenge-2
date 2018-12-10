@@ -12,7 +12,7 @@ To use this Plugin no aditional software or plugins are needed we just need a la
 
 ## What it will do ?
 
-Activation of the Plugin will create a custom admin menu **Slider_Settings** here you can create multiple Sliders. It will add a custom button to the visual editor of post type 'Page' & 'Post'.   
+Activation of the Plugin will create a custom admin menu **Slider_Settings** here you can create multiple Sliders. It will add a custom button to the visual editor of post type 'Pages' & 'Posts'.   
 
 ### How It Works ?
 
