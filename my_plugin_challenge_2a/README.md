@@ -30,7 +30,7 @@ Now, you can insert, delete and change index of slides of your slider easily by 
 **Select & Remove** - Select and Remove remove images from Slider 
 **Remove All Images** - Remove All the Images From the Slider 
 **Save Changes** - To Save new Changes
-**Delete** - To Delete the respective Slider
+**Delete Slider** - To Delete the respective Slider
 
 ![Slider_Setting](images/Slider_Setting.png)
 
