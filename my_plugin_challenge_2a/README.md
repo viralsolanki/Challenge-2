@@ -19,9 +19,7 @@ Activation of the Plugin will create a custom admin menu **Slider_Settings** her
 To customize Slider go to WordPress **Dashboard -> Menubar -> Slider_Settings**. 
 
 From here You can create multiple slides using **Insert Slider Type** field. All you have to do is enter name of the slider in field and click on create slide. 
-Now, you can insert, delete and change index of slides of your slider easily by clicking on the respective buttons. To add Slider in 'Post' or 'Page' open the edit page of your respective post and click on the button **Add slider**. By clicking on it a pop-up menu will appear that contains list of sliders you have created. You can select any slider which you want to attach to the post.  
-
-![Button](images/button.png)
+Now, you can insert, delete and change index of slides of your slider easily by clicking on the respective buttons. 
 
 **Slider_Settings** page contains following buttons to do respective changes :
 
@@ -33,6 +31,9 @@ Now, you can insert, delete and change index of slides of your slider easily by 
 * **Delete Slider** - To Delete the respective Slider<br />
 
 ![Slider_Setting](images/Slider_Setting.png)
+
+To add Slider in 'Post' or 'Page' open the edit page of your respective post and click on the button **Add slider**. By clicking on it a pop-up menu will appear that contains list of sliders you have created. You can select any slider which you want to attach to the post.  
+![Button](images/button.png)
 
 ### Shortcode
 
