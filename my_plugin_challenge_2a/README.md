@@ -24,16 +24,16 @@ From here You can create multiple slides using <strong>'Insert Slider Type'</str
 Then you can insert, delete and change index of slides of your slider easily by clicking on the respective buttons.To add Slider in 'post' or 'page' open the edit page of your respective post click on the
 button **Add slider**. By clicking on it a popup menu will appear that contains list of sliders you have created. You can select any slider which you want to attach to the post.  
 
-![Button](/images/button.png)
+![Button](images/button.png)
 
 **Slider_Settings** page contains following buttons to do respective changes :
 
-# Insert Images - Insert images to your Slider
-# Change Index - Change index of images in Slider
-# Select & Remove - Select and Remove remove images from Slider 
-# Remove All Images - Remove All the Images From the Slider 
+**Insert Images** - Insert images to your Slider
+**Change Index** - Change index of images in Slider
+**Select & Remove** - Select and Remove remove images from Slider 
+**Remove All Images** - Remove All the Images From the Slider 
 
-![Slider_Setting](/images/Slider_Setting.png)
+![Slider_Setting](images/Slider_Setting.png)
 
 ### Shortcode
 
