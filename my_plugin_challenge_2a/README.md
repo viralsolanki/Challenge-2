@@ -32,7 +32,8 @@ Now, you can insert, delete and change index of slides of your slider easily by 
 
 ![Slider_Setting](images/Slider_Setting.png)
 
-To add Slider in 'Post' or 'Page' open the edit page of your respective post and click on the button **Add slider**. By clicking on it a pop-up menu will appear that contains list of sliders you have created. You can select any slider which you want to attach to the post.  
+To add Slider in 'Post' or 'Page' open the edit page of your respective post and click on the button **Add slider**. By clicking on it a pop-up menu will appear that contains list of sliders you have created. You can select any slider which you want to attach to the post.
+
 ![Button](images/button.png)
 
 ### Shortcode
