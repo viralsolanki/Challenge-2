@@ -23,7 +23,7 @@ Now, you can insert, delete and change index of slides of your slider easily by 
 
 ![Button](images/button.png)
 
-**Slider_Settings** page contains following buttons to do respective changes :
+### **Slider_Settings** page contains following buttons to do respective changes :
 
 **Insert Images** - Insert images to your Slider<br />
 **Change Index** - Change index of images in Slider<br />
