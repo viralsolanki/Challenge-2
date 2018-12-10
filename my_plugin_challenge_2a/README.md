@@ -71,4 +71,4 @@ For testing PHPUnit testing framework is used. All the tests are rest in test di
 
 ## Demo Link
 
-*[http://myplugin.gq/](http://myplugin.gq/) - Shortcode 'myslideshow' is used in **Shortcode** page. Open the page to see how it works.
+*[http://myplugin.gq/](http://myplugin.gq/) 
