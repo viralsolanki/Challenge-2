@@ -25,7 +25,7 @@ Now, you can insert, delete and change index of slides of your slider easily by 
 
 **Slider_Settings** page contains following buttons to do respective changes :
 
-**Insert Images** - Insert images to your Slider.
+**Insert Images** - Insert images to your Slider
 **Change Index** - Change index of images in Slider.
 **Select & Remove** - Select and Remove remove images from Slider. 
 **Remove All Images** - Remove All the Images From the Slider. 
